@@ -1,0 +1,211 @@
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #97cb04;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e0333c;
+  font-family: "Oswald";
+}
+
+section#images {
+  width: 100%;
+  max-width: 100%;
+  background: url('../img/background.png');
+  position: relative;
+}
+section#images img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+section#images #frogandleaves {
+  /*width: 100%;*/
+  display: block;
+  position: relative;
+  padding-top: 37%;
+  z-index: 2;
+}
+section#images #frog {
+  display: block;
+  height: auto;
+  position: relative;
+  width: 10%;
+}
+section#images #leaves {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+section#images h1 {
+  color: #e0333c;
+  font-family: "Oswald";
+  font-size: 200pt;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  position: fixed;
+  display: block;
+  z-index: 1;
+}
+section#images ul {
+  display: block;
+  position: absolute;
+  top: 0px;
+  border-top: 3px solid darkred;
+  border-bottom: 3px solid darkred;
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  z-index: 5;
+}
+section#images li {
+  position: relative;
+  display: inline;
+}
+section#images li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  display: inline-block;
+  color: darkred;
+}
+section#images li a:hover {
+  cursor: pointer;
+}
+
+section.forrest-top {
+  background: #97cb04;
+  display: block;
+  z-index: 3;
+  position: relative;
+  height: auto;
+  margin: 0;
+}
+section.forrest-top h3.left {
+  margin-top: 0;
+  font-family: 'Allerta Stencil';
+  color: #e0333c;
+  margin-left: 5%;
+  font-size: 300%;
+  border-bottom: 5px solid white;
+  display: inline-block;
+  position: relative;
+  clear: both;
+}
+section.forrest-top h3.right {
+  margin: 0;
+  padding: 0;
+  font-family: 'Allerta Stencil';
+  color: #e0333c;
+  text-align: right;
+  margin-right: 5%;
+  font-size: 300%;
+  display: block;
+  position: relative;
+  margin-top: .5em;
+}
+section.forrest-top h3.right span { 
+  border-bottom: 5px solid white;
+  display: inline-block;
+}
+section.underwater-top h3#lunch {
+  display: block;
+  position: relative;
+  padding-top: 150px;
+}
+section.forrest-top p.pleft {
+  margin: -1em;
+  color: darkred;
+  font-family: "Gloria Hallelujah";
+  margin-left: 5%;
+  font-size: 30pt;
+  font-weight: bold;
+  /*text-indent: 2.3%;*/
+  width: 87.7%;
+  padding-bottom: 5%;
+  position: relative;
+}
+section.forrest-top p.user {
+  color: darkred;
+}
+section.forrest-top p.pright {
+  float: right;
+  display: darkred;
+  font-family: "Gloria Hallelujah";
+  /*text-indent: 2.3%;*/
+  margin-right: 5%;
+  padding-bottom: 5%;
+  position: relative;
+  font-weight: bold;
+  font-size: 30pt;
+  color: darkred;
+  width: 61%;
+  text-align: right;
+  margin-top: -.09%;
+
+}
+section.forrest-top ul {
+  font-family: "Roboto Slab";
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  padding: 0;
+  width: 23%;
+  margin-right: 5%;
+  vertical-align: top;
+}
+section.forrest-top ul.last {
+  right: 0;
+  position: absolute;
+}
+section.forrest-top ul li {
+  font-size: 18pt;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  clear: both;
+}
+section.forrest-top ul li span {
+  color: darkred;
+}
+section.forrest-top ul li.titlechar {
+  display: block;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+section.forrest-top #img-div {
+  display: block;
+  float: left;
+  position: relative;
+ /* margin-top: 25px;*/
+}
+section.forrest-top #img-div img {
+  display: block;
+  position: relative;
+}
+
+.clear {
+  display: block;
+  clear: both;
+/*  margin-bottom: 25px;*/
+}
+
+.lastSec {
+  overflow: hidden;
+  padding: 2%;
+}
